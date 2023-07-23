@@ -28,7 +28,7 @@
                     <li>
                         <a href="exercicio.php?dir=basico&file=html.php">
                             Integração HTML!
-                            fdfsdfsdfdsfsd
+                        
                         </a>
                     </li>
                     <li>
