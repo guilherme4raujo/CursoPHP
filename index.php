@@ -120,7 +120,7 @@
                             </a>
                         </li>            
                         <li>
-                            <a href="exercicio.php?dir=variaveis&file=constantes.php">
+                            <a href="exercicio.php?dir=variaveis&file=valor_constantes.php">
                             Constantes
                             </a>
                         </li>            
