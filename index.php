@@ -40,6 +40,12 @@
                                                             <a href="exercicio.php?dir=controle&file=operadores_logicos.php">
                                                                         Operadores Lógicos !
                                                              </a>
+                                                        </li>  
+
+                                                        <li>
+                                                            <a href="exercicio.php?dir=controle&file=desafio_operadores_logicos.php">
+                                                                        Desafio Operadores Lógicos !
+                                                             </a>
                                                         </li>          
                                                     </ul>
        
