@@ -1,12 +1,14 @@
 <div class="titulo">Desafio Switch</div>
 
-<form action="#" method="post">
+<form action="#" method="POST">
     <input type="text" name = "param">
         <select name="conversao" id="conversao">
                 <option value="km-milha">KM > MILHA</option>
                 <option value="milha-km">MILHA > KM</option>
                 <option value="metro-km">METROS > KM</option>
                 <option value="km-metro">KM > METROS</option>
+                <option value="c-fahrenheit">C > FAHRENHEIT</option>
+                <option value="fahrenheit-c">FAHRENHEIT > C</option>
                     
         </select>
 
@@ -30,31 +32,46 @@ echo $_POST["param"] . '<br>';
 echo $_POST["conversao"];
 
 
-$param = $_POST["param"] = 0;
+$param = $_POST["param"] ?? 0;
 
-switch($_POST["conversao"]){
+switch($_POST['conversao']){
     case 'km-milha';
-    $param * 0.621371;
-    $distancia = "A distância é de $param" . ' milhas';
-    break;
+        $distancia = $param * 0.621371;
+        echo "<br> A distância é de $distancia" . ' milhas';
+        break;
 
     case 'milha-km';
-    $param / 0.621371;
-    $distancia = "A distância é de $param" . ' quilômetros';
-    break;
+        $distancia  = $param / 0.621371;
+        echo "<br>A distância é de $distancia " . ' quilômetros';
+        break;
 
     case 'metro-km';
-    $param /1000;
-    $distancia = "A distância é de $param" . ' quilômetros';
-    break;
+        $distancia = $param /1000;
+        echo "<br>A distância é de $distancia " . ' quilômetros';
+        break;
   
     case 'km-metro';
-    $param * 1000;
-    $distancia = "A distância é de $param" . ' metros';
-    break;
+        $distancia = $param * 1000;
+        echo"<br>A distância é de $distancia " . ' metros';
+        break;
 
-    default
-    echo "<p>Nenhum valor calculado</p>";
+    case 'c-fahrenheit';
+        $distancia = ($param * 1.8) + 32;
+        echo"<br>A temperatura é de $distancia " . ' fahrenheit';
+        break;
+
+    case 'c-fahrenheit';
+        $distancia = ($param * 1.8) + 32;
+        echo"<br>A temperatura é de $distancia " . ' fahrenheit';
+        break;
+
+    case 'fahrenheit-c';
+        $distancia = ($param - 32) / 1.8;
+        echo"<br>A temperatura é de $distancia " . ' graus Celsius';
+        break;
+    
+    default:
+    echo "<p><br>Nenhum valor calculado</p>";    
+};
 
 
-}
