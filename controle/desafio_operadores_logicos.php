@@ -8,31 +8,33 @@
 -->
 
 <form action="#" method ="post">
-<div>
+    <div>
 
-    <label for="t1">Trabalho 1 (terça);</label>    
-        <select name="t1" id="t1">
+        <label for="t1">Trabalho 1 (terça);</label>    
+            <select name="t1" id="t1">
+                <option value="1">Executado</option>
+                <option value="0">Não Executado</option>
+            </select>
+    </div>
 
-            <option value="1">Executado</option>
-            <option value="0">Não Executado</option>
-            
-        </select>
 
-    <label for="t2">Trabalho 2 (Quinta);</label>    
-        <select name="t2" id="t2">
+    <div>
+        <label for="t2">Trabalho 2 (Quinta);</label>    
+            <select name="t2" id="t2">
+                <option value="1">Executado</option>
+                <option value="0">Não Executado</option>
+            </select>
+    </div>
 
-            <option value="1">Executado</option>
-            <option value="0">Não Executado</option>
 
-        </select>
-
-</div>
-<button>
-    Executar!
-</button>
+        <button>
+            Executar!
+        </button>
 
 
 </form>
+
+
 
 <style>
     button,select{
@@ -41,6 +43,40 @@
 </style>
 
 <?php
-echo $_POST ['t1'];
-echo $_POST ['t2'];
+var_dump( !!$_POST ['t1']);
+var_dump( !!$_POST ['t2']);
 
+$t1 = !!$_POST['t1'];
+$t2 = !!$_POST['t2'];
+
+$tv = '';
+$sorvete = false;
+
+
+if( $t1 && $t2 ){
+    $tv = '50 p';
+}
+
+elseif($t1 xor $t2){
+    $tv = '32 p';
+}
+
+if($t1 or $t2){
+    $sorvete = true;
+}
+
+if($tv){
+    $resultado = "Vamos comprar uma TV de $tv";
+
+}else{
+    $resultado = "Sem TV dessa vez";
+}
+
+if(!$sorvete){
+    $resultado .= '<br> Estamos mais saudáveis!';
+}else{
+    $resultado .= '<br> Sorvete liberado';
+}
+
+echo "<p> $resultado</p>";
+?>

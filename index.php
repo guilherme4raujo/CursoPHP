@@ -46,6 +46,24 @@
                                                             <a href="exercicio.php?dir=controle&file=desafio_operadores_logicos.php">
                                                                         Desafio Operadores Lógicos !
                                                              </a>
+                                                        </li> 
+                                                                 
+                                                        <li>
+                                                            <a href="exercicio.php?dir=controle&file=operador_ternario.php">
+                                                                        Operador Ternário !
+                                                             </a>
+                                                        </li>   
+
+                                                        <li>
+                                                            <a href="exercicio.php?dir=controle&file=switch.php">
+                                                                        Switch !
+                                                             </a>
+                                                        </li>
+
+                                                        <li>
+                                                            <a href="exercicio.php?dir=controle&file=desafio_switch.php">
+                                                                        Desafio Switch !
+                                                             </a>
                                                         </li>          
                                                     </ul>
        
