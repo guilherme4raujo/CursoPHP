@@ -14,6 +14,35 @@
     <main class="principal">
         <div class="conteudo">
              <nav class="modulos">
+                                    <div class="modulo laranja">
+
+                                        <h3>5.Array</h3>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="exercicio.php?dir=array&file=basico.php">
+                                                                    Array!
+                                                             </a>
+                                                        </li>     
+                                                        
+                                                        <li>
+                                                            <a href="exercicio.php?dir=array&file=mapa.php">
+                                                                    Mapa!
+                                                             </a>
+                                                        </li>     
+
+                                                        <li>
+                                                            <a href="exercicio.php?dir=array&file=desafio_meses.php">
+                                                                    Desafio Meses!
+                                                             </a>
+                                                        </li>     
+
+                                                        <li>
+                                                            <a href="exercicio.php?dir=array&file=operacoes.php">
+                                                                    Operações com Arrays!
+                                                             </a>
+                                                        </li>     
+                                                    </ul>
+                                    </div>  
                                     <div class="modulo roxo">
 
                                         <h3>4.Controle</h3>
