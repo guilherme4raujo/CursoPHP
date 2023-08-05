@@ -41,6 +41,42 @@
                                                                     Operações com Arrays!
                                                              </a>
                                                         </li>     
+
+                                                        <li>
+                                                            <a href="exercicio.php?dir=array&file=desafio_sorteio.php">
+                                                                    Desafio Sorteio!
+                                                             </a>
+                                                        </li>     
+
+                                                        <li>
+                                                            <a href="exercicio.php?dir=array&file=multi.php">
+                                                                    Arrays Multimensionais!
+                                                             </a>
+                                                        </li>
+
+                                                        <li>
+                                                            <a href="exercicio.php?dir=array&file=constantes.php">
+                                                                    Arrays Constantes!
+                                                             </a>
+                                                        </li>
+
+                                                        <li>
+                                                            <a href="exercicio.php?dir=array&file=get.php">
+                                                                    $_GET!
+                                                             </a>
+                                                        </li>     
+
+                                                        <li>
+                                                            <a href="exercicio.php?dir=array&file=post.php">
+                                                                    $_POST!
+                                                             </a>
+                                                        </li> 
+
+                                                        <li>
+                                                            <a href="exercicio.php?dir=array&file=comparacao.php">
+                                                            Comparação Array!
+                                                             </a>
+                                                        </li>     
                                                     </ul>
                                     </div>  
                                     <div class="modulo roxo">
