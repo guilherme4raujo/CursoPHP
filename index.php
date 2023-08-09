@@ -23,6 +23,48 @@
                                                                                     <a href="exercicio.php?dir=repeticoes&file=for.php">
                                                                                             Laço For!
                                                                                     </a>
+                                                                                </li>
+
+                                                                                <li>
+                                                                                    <a href="exercicio.php?dir=repeticoes&file=desafio_for.php">
+                                                                                            Desafio laço For!
+                                                                                    </a>
+                                                                                </li>
+
+                                                                                <li>
+                                                                                    <a href="exercicio.php?dir=repeticoes&file=foreach.php">
+                                                                                            Foreach!
+                                                                                    </a>
+                                                                                </li>
+
+                                                                                <li>
+                                                                                    <a href="exercicio.php?dir=repeticoes&file=break_continue.php">
+                                                                                            Break/Continue!
+                                                                                    </a>
+                                                                                </li>     
+
+                                                                                <li>
+                                                                                    <a href="exercicio.php?dir=repeticoes&file=desafio_impressao.php">
+                                                                                            Desafio Impressao!
+                                                                                    </a>
+                                                                                </li>     
+                                                                                
+                                                                                <li>
+                                                                                    <a href="exercicio.php?dir=repeticoes&file=while.php">
+                                                                                            While/Do While!
+                                                                                    </a>
+                                                                                </li>     
+
+                                                                                <li>
+                                                                                    <a href="exercicio.php?dir=repeticoes&file=desafio_tabela.php">
+                                                                                            Desafio Tabela!
+                                                                                    </a>
+                                                                                </li>
+
+                                                                                <li>
+                                                                                    <a href="exercicio.php?dir=repeticoes&file=desafio_tabela_2.php">
+                                                                                            Desafio Tabela 02!
+                                                                                    </a>
                                                                                 </li>     
                                                                      </ul>
                                                         </div>
