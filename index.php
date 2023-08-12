@@ -15,17 +15,42 @@
         <div class="conteudo">
              <nav class="modulos">
 
-             <div class="modulo vermelho-escuro">
+                            <div class="modulo vermelho-escuro">
 
-                            <h3>7.Funções</h3>
-                            <ul>
-                                    <li>
-                                        <a href="exercicio.php?dir=funcoes&file=escopo.php">
-                                            Função & Escopo!
-                                            </a>
-                                    </li>
-                             </ul>
-                </div>
+                                                <h3>7.Função</h3>
+                                                    <ul>
+                                                            <li>
+                                                                <a href="exercicio.php?dir=funcoes&file=escopo.php">
+                                                                        Escopo!
+                                                                    </a>
+                                                            </li>
+
+                                                            <li>
+                                                                <a href="exercicio.php?dir=funcoes&file=args_retornos.php">
+                                                                        Argumentos e Retornos!
+                                                                    </a>
+                                                            </li>
+
+                                                            <li>
+                                                                <a href="exercicio.php?dir=funcoes&file=desafio_palindromo.php">
+                                                                        Desafio Palíndromo!
+                                                                    </a>
+                                                            </li>
+
+                                                            <li>
+                                                                <a href="exercicio.php?dir=funcoes&file=argumento_variaveis.php">
+                                                                        Argumento Variáveis!
+                                                                    </a>
+                                                            </li>
+
+                                                            <li>
+                                                                <a href="exercicio.php?dir=funcoes&file=arg_padrao.php">
+                                                                        Argumento Padrão!
+                                                                    </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+
                                                     <div class="modulo verde-escuro">
 
                                                             <h3>6.Repetições</h3>
