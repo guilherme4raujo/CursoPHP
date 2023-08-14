@@ -48,6 +48,34 @@
                                                                         Argumento Padrão!
                                                                     </a>
                                                             </li>
+
+                                                            <li>
+                                                                <a href="exercicio.php?dir=funcoes&file=usando_tipos.php">
+                                                                        Usando Tipos!
+                                                                    </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="exercicio.php?dir=funcoes&file=anonimas.php">
+                                                                        Funções Anônimas!
+                                                                    </a>
+                                                            </li>
+
+                                                            <li>
+                                                                <a href="exercicio.php?dir=funcoes&file=closure_callable.php">
+                                                                        Closure & Callable!
+                                                                    </a>
+                                                            </li>
+
+                                                            <li>
+                                                                <a href="exercicio.php?dir=funcoes&file=recursividade.php">
+                                                                        Recursividade!
+                                                                    </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="exercicio.php?dir=funcoes&file=desafio_recursividade.php">
+                                                                        Desafio Recursividade!
+                                                                    </a>
+                                                            </li>
                                                         </ul>
                                                     </div>
 
