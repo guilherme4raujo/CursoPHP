@@ -76,6 +76,17 @@
                                                                         Desafio Recursividade!
                                                                     </a>
                                                             </li>
+
+                                                            <li>
+                                                                <a href="exercicio.php?dir=funcoes&file=retornando_funcao.php">
+                                                                       Retornando Função!
+                                                                    </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="exercicio.php?dir=funcoes&file=map_filter.php">
+                                                                       Map & Filter!
+                                                                    </a>
+                                                            </li>
                                                         </ul>
                                                     </div>
 
