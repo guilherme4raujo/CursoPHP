@@ -15,6 +15,29 @@
         <div class="conteudo">
              <nav class="modulos">
 
+             <div class="modulo azul-escuro">
+
+<h3>8.Paradigma O.O</h3>
+    <ul>
+            <li>
+                <a href="exercicio.php?dir=classe_objetos&file=classe.php">
+                        Classes!
+                    </a>
+            </li>
+
+            <li>
+                <a href="exercicio.php?dir=classe_objetos&file=desafio_data.php">
+                        Desafio Data!
+                    </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=classe_objetos&file=construtor.php">
+                        Construtor & Destrutor!
+                    </a>
+            </li>
+</ul>
+</div>
+
                             <div class="modulo vermelho-escuro">
 
                                                 <h3>7.Função</h3>
