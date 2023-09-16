@@ -35,6 +35,11 @@
                         Construtor & Destrutor!
                     </a>
             </li>
+            <li>
+                <a href="exercicio.php?dir=classe_objetos&file=heranca.php">
+                        Herança!
+                    </a>
+            </li>
 </ul>
 </div>
 
