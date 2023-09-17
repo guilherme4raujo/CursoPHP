@@ -40,6 +40,16 @@
                         Herança!
                     </a>
             </li>
+            <li>
+                <a href="exercicio.php?dir=classe_objetos&file=visibilidade.php">
+                        Visibilidade!
+                    </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=classe_objetos&file=static.php">
+                        Membros Estáticos!
+                    </a>
+            </li>
 </ul>
 </div>
 
