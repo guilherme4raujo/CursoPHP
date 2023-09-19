@@ -50,6 +50,12 @@
                         Membros Estáticos!
                     </a>
             </li>
+
+            <li>
+                <a href="exercicio.php?dir=classe_objetos&file=interface.php">
+                        Interface!
+                    </a>
+            </li>
 </ul>
 </div>
 
