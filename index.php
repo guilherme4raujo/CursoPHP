@@ -56,6 +56,22 @@
                         Interface!
                     </a>
             </li>
+            
+            <li>
+                <a href="exercicio.php?dir=classe_objetos&file=abstrata.php">
+                        Classe Abstrata!
+                    </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=classe_objetos&file=desafio_erros.php">
+                        Desafio Erros!
+                    </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=classe_objetos&file=final.php">
+                        Modificador Final!
+                    </a>
+            </li>
 </ul>
 </div>
 
